@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <title>Fernando & Carola - Nuestra Boda</title>
+      <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+      <meta content="Free HTML Templates" name="keywords" />
+      <meta content="Free HTML Templates" name="description" />
+
+      <!-- Favicon -->
+      <link href="img/favicon.ico" rel="icon" />
+
+      <!-- Google Web Fonts -->
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600&display=swap"
+         rel="stylesheet"
+      />
+
+      <!-- Font Awesome -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+
+      <!-- Libraries Stylesheet -->
+      <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+      <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+      <!-- Customized Bootstrap Stylesheet -->
+      <link href="css/style.css" rel="stylesheet" />
+   </head>
+
+   <body data-spy="scroll" data-target=".navbar" data-offset="51">
+      <!-- Navbar Start -->
+      <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5">
+         <a href="index.html" class="navbar-brand d-block d-lg-none">
+            <h1 class="font-secondary text-white mb-n2">Fernando <span class="text-primary">&</span> Carola</h1>
+         </a>
+         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav ml-auto py-0">
+               <a href="#home" class="nav-item nav-link active">Inicio</a>
+               <a href="#evento" class="nav-item nav-link">Locaciones</a>
+               <a href="#codigo-vestimenta" class="nav-item nav-link">Etiqueta de vestuario</a>
+            </div>
+            <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
+               <h1 class="font-secondary text-white mb-n2">Fernando <span class="text-primary">&</span> Carola</h1>
+            </a>
+            <div class="navbar-nav mr-auto py-0">
+               <!-- <a href="#family" class="nav-item nav-link">Family</a> -->
+               <a href="#itinerario" class="nav-item nav-link">Itinerario</a>
+               <a href="#gallery" class="nav-item nav-link">Galeria</a>
+               <a href="#rsvp" class="nav-item nav-link">Asistencia</a>
+               <!-- <a href="#contact" class="nav-item nav-link">Contact</a> -->
+            </div>
+         </div>
+      </nav>
+      <!-- Navbar End -->
+      <!-- Portada Start -->
+      <div class="container-fluid p-0 pb-5" id="home">
+         <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item position-relative active" style="height: 100vh; min-height: 400px">
+                  <img class="position-absolute w-100 h-100" src="img/carousel-1.jpg" style="object-fit: cover" />
+                  <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                     <div class="p-3" style="max-width: 900px">
+                        <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4">Fernando & Carola</h1>
+                        <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
+                           <h3 class="text-uppercase font-weight-normal text-white m-0" style="letter-spacing: 2px">
+                              Nos casamos
+                           </h3>
+                        </div>
+                        <!-- Reproductor de MP3 -->
+                        <div class="audio-player mt-4">
+                           <audio id="audio" src="music/cancion.mp3"></audio>
+                           <button id="playPause" class="btn-play mx-auto">
+                              <span class="play-icon"></span>
+                           </button>
+                        </div>
+                        <div class="countdown-container">
+                           <h2 class="countdown-title">17 de mayo del 2025</h2>
+                           <p>Faltan</p>
+                           <div class="countdown">
+                              <div class="time-box">
+                                 <span id="days">00</span>
+                                 <p>Días</p>
+                              </div>
+                              <div class="time-box">
+                                 <span id="hours">00</span>
+                                 <p>Horas</p>
+                              </div>
+                              <div class="time-box">
+                                 <span id="minutes">00</span>
+                                 <p>Minutos</p>
+                              </div>
+                              <div class="time-box">
+                                 <span id="seconds">00</span>
+                                 <p>Segundos</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Portada End -->
+      <!-- About Start -->
+      <div class="container-fluid" id="evento">
+         <div class="container py-5">
+            <div class="section-title position-relative text-center">
+               <h1 class="font-secondary display-4">Detalles del Evento</h1>
+               <i class="far fa-heart text-dark"></i>
+            </div>
+            <h6 class="text-uppercase text-primary mb-3 text-center" style="letter-spacing: 3px">
+               Espacios de la Ceremonia y Celebración
+            </h6>
+            <div class="row justify-content-center">
+               <div class="col-md-6 text-center">
+                  <h5 class="font-weight-normal text-muted mb-3 pb-3">
+                     Estamos emocionados de compartir este día tan especial con ustedes. Aquí les dejamos los detalles
+                     de la ceremonia y la celebración.
+                  </h5>
+               </div>
+            </div>
+            <div class="row">
+               <!-- Sección de la Ceremonia -->
+               <div class="col-md-6 border-right border-primary">
+                  <div class="text-center mr-md-3 mb-md-0">
+                     <h4 class="mb-3">La Ceremonia</h4>
+                     <img class="img-fluid mb-2" src="img/event-1.jpg" alt="Ceremonia" />
+                     <p class="mb-2"><strong>Parroquia Santo Domingo</strong></p>
+                     <p class="mb-2">Calle Calvo #101, Sucre, Bolivia</p>
+                     <p class="mb-0"><strong>Hora:</strong> 2:30 PM</p>
+                  </div>
+                  <!-- Botón para abrir el mapa -->
+                  <div class="text-center mt-2 mb-4">
+                     <a
+                        href="https://www.google.com/maps/search/?api=1&query=Parroquia+San+Juan+Bautista"
+                        target="_blank"
+                        class="btn btn-primary"
+                        >Abrir en Google Maps</a
+                     >
+                  </div>
+               </div>
+               <!-- Sección de la Celebración -->
+               <div class="col-md-6">
+                  <div class="text-center ml-md-3">
+                     <h4 class="mb-3">La Celebración</h4>
+                     <img class="img-fluid mb-2" src="img/event-2.jpg" alt="Celebración" />
+                     <p class="mb-2"><strong>La Casona</strong></p>
+                     <p class="mb-2">Calle Guillermo Loayza #89, Sucre, Bolivia</p>
+                     <p class="mb-0"><strong>Hora:</strong> 3:30 PM</p>
+                  </div>
+                  <!-- Botón para abrir el mapa -->
+                  <div class="text-center mt-2 mb-4">
+                     <a
+                        href="https://www.google.com/maps/search/?api=1&query=Sal%C3%B3n+Elegance"
+                        target="_blank"
+                        class="btn btn-primary"
+                        >Abrir en Google Maps</a
+                     >
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- About End -->
+      <!-- Código de Vestimenta -->
+      <div class="container-fluid py-4" id="codigo-vestimenta">
+         <div class="container">
+            <div class="position-relative text-center">
+               <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px">Código de Vestimenta</h6>
+            </div>
+            <div class="row justify-content-center">
+               <div class="col-md-6 text-center">
+                  <h5 class="font-weight-normal text-muted mb-3 pb-3">
+                     Para hacer de este día un evento inolvidable, les pedimos que sigan el siguiente código de
+                     vestimenta:
+                  </h5>
+               </div>
+            </div>
+            <div class="row text-center">
+               <div class="col-md-6 mb-4 portfolio-item first">
+                  <div class="m-auto w-350p mb-2">
+                     <img class="top-image" src="img/dama.jpg" alt="" />
+                     <div class="bg-secondary text-center p-4">
+                        <h4 class="mb-3">Damas</h4>
+                        <p class="">Vestido formal, cualquier color EXCEPTO blanco, reservado para la novia.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6 mb-4">
+                  <div class="mb-2 m-auto w-350p">
+                     <img class="top-image" src="img/hombre.jpg" alt="" />
+                     <div class="bg-secondary text-center p-4">
+                        <h4 class="mb-3">Caballeros</h4>
+                        <p class="">Traje formal</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Itinerario -->
+      <div class="itinerario-container bg-blue-light" id="itinerario">
+         <div class="position-relative text-center">
+            <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px">Itinerario</h6>
+         </div>
+         <div class="timeline">
+            <div class="timeline-item left">
+               <div class="icon"><img src="img/entrada.png" alt="Coctel" /></div>
+               <div class="content">
+                  <h3 class>Recepción</h3>
+                  <p>3:30 PM</p>
+               </div>
+            </div>
+            <div class="timeline-item right">
+               <div class="icon"><img src="img/recibimiento.png" alt="Coctel" /></div>
+               <div class="content">
+                  <h3>Recibimiento de los Novios</h3>
+                  <p>4:00 PM</p>
+               </div>
+            </div>
+            <div class="timeline-item left">
+               <div class="icon"><img src="img/brindis.png" alt="Cena" /></div>
+               <div class="content">
+                  <h3>Brindis</h3>
+                  <p>4:30 PM</p>
+               </div>
+            </div>
+            <div class="timeline-item right">
+               <div class="icon"><img src="img/camara.png" alt="Vals" /></div>
+               <div class="content">
+                  <h3>Picks time y que empiece la fiesta</h3>
+                  <p>5:00 PM</p>
+               </div>
+            </div>
+            <div class="timeline-item left">
+               <div class="icon"><img src="img/cena.png" alt="Cena" /></div>
+               <div class="content">
+                  <h3>Cena</h3>
+                  <p>8:00 PM</p>
+               </div>
+            </div>
+            <div class="timeline-item right">
+               <div class="icon"><img src="img/musica.png" alt="Grupo en Vivo" /></div>
+               <div class="content">
+                  <h3>Grupo en Vivo</h3>
+                  <p>9:30 PM</p>
+               </div>
+            </div>
+            <div class="timeline-item left">
+               <div class="icon"><img src="img/ramo.png" alt="Lanzamiento de ramo" /></div>
+               <div class="content">
+                  <h3>Lanzamiento de Ramo y Whisky</h3>
+                  <p>10:30 PM</p>
+               </div>
+            </div>
+            <div class="timeline-item right">
+               <div class="icon"><img src="img/dj.png" alt="DJ" /></div>
+               <div class="content">
+                  <h3>Música y DJ con Carrito Sorpresa</h3>
+                  <p>11:00 PM</p>
+               </div>
+            </div>
+            <div class="timeline-item left">
+               <div class="icon"><img src="img/pastel.png" alt="Torta" /></div>
+               <div class="content">
+                  <h3>Torta y Agradecimientos</h3>
+                  <p>12:00 AM</p>
+               </div>
+            </div>
+            <div class="timeline-item right">
+               <div class="icon"><img src="img/regalo.png" alt="Regalos" /></div>
+               <div class="content">
+                  <h3>Grupo en Vivo y Regalitos</h3>
+                  <p>12:30 AM</p>
+               </div>
+            </div>
+            <div class="timeline-item left">
+               <div class="icon"><img src="img/bailando.png" alt="Fiesta" /></div>
+               <div class="content">
+                  <h3>Y que siga la fiesta</h3>
+                  <p>1:30 AM</p>
+               </div>
+            </div>
+            <div class="timeline-item right">
+               <div class="icon"><img src="img/end.png" alt="Fin" /></div>
+               <div class="content">
+                  <h3>Fin de la Celebración</h3>
+                  <p>3:00 AM</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Gallery Start -->
+      <div class="container-fluid bg-gallery" id="gallery" style="padding: 120px 0; margin: 90px 0">
+         <div class="section-title position-relative text-center" style="margin-bottom: 120px">
+            <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px">Galeria</h6>
+            <h1 class="font-secondary display-4 text-white">Nuestras fotos</h1>
+            <i class="far fa-heart text-white"></i>
+         </div>
+         <div class="owl-carousel gallery-carousel">
+            <div class="gallery-item">
+               <img class="center-image w-100" src="img/foto1.jpg" alt="" />
+               <a href="img/foto1.jpg" data-lightbox="gallery">
+                  <i class="fa fa-2x fa-plus text-white"></i>
+               </a>
+            </div>
+            <div class="gallery-item">
+               <img class="center-image w-100" src="img/foto2.jpg" alt="" />
+               <a href="img/foto2.jpg" data-lightbox="gallery">
+                  <i class="fa fa-2x fa-plus text-white"></i>
+               </a>
+            </div>
+            <div class="gallery-item">
+               <img class="center-image w-100" src="img/foto7.jpg" alt="" />
+               <a href="img/foto7.jpg" data-lightbox="gallery">
+                  <i class="fa fa-2x fa-plus text-white"></i>
+               </a>
+            </div>
+            <div class="gallery-item">
+               <img class="center-image w-100" src="img/foto8.jpg" alt="" />
+               <a href="img/foto8.jpg" data-lightbox="gallery">
+                  <i class="fa fa-2x fa-plus text-white"></i>
+               </a>
+            </div>
+            <div class="gallery-item">
+               <img class="center-image w-100" src="img/foto3.jpg" alt="" />
+               <a href="img/foto3.jpg" data-lightbox="gallery">
+                  <i class="fa fa-2x fa-plus text-white"></i>
+               </a>
+            </div>
+            <div class="gallery-item">
+               <img class="center-image w-100" src="img/foto0.jpg" alt="" />
+               <a href="img/foto0.jpg" data-lightbox="gallery">
+                  <i class="fa fa-2x fa-plus text-white"></i>
+               </a>
+            </div>
+            <div class="gallery-item">
+               <img class="center-image w-100" src="img/foto5.JPG" alt="" />
+               <a href="img/foto5.JPG" data-lightbox="gallery">
+                  <i class="fa fa-2x fa-plus text-white"></i>
+               </a>
+            </div>
+            <div class="gallery-item">
+               <img class="center-image w-100" src="img/foto6.jpg" alt="" />
+               <a href="img/foto6.JPG" data-lightbox="gallery">
+                  <i class="fa fa-2x fa-plus text-white"></i>
+               </a>
+            </div>
+         </div>
+      </div>
+      <!-- Gallery End -->
+      <!-- RSVP Start -->
+      <div class="container-fluid" id="rsvp">
+         <div class="container py-5">
+            <div class="section-title position-relative text-center">
+               <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px">ASISTENCIA</h6>
+               <h1 class="font-secondary display-4">Únete a nuestra fiesta</h1>
+               <i class="far fa-heart text-dark"></i>
+            </div>
+            <div class="row justify-content-center">
+               <div class="col-lg-8">
+                  <div class="text-center">
+                     <iframe
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSdDwu1_t6ezPwiAd2ByGMjhISyGQXz1bweWfkRpH5tvswkBGw/viewform?embedded=true"
+                        width="100%"
+                        height="720"
+                        frameborder="0"
+                        marginheight="0"
+                        marginwidth="0"
+                        >Cargando…</iframe
+                     >
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- RSVP End -->
+      <!-- Footer Start -->
+      <div class="container-fluid bg-dark text-white py-5" id="contact" style="margin-top: 90px">
+         <div class="container text-center">
+            <div class="section-title position-relative text-center">
+               <h1 class="font-secondary display-3 text-white">Gracias</h1>
+               <i class="far fa-heart text-white"></i>
+            </div>
+         </div>
+      </div>
+      <!-- Footer End -->
+      <!-- Scroll to Bottom -->
+      <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+      <!-- Back to Top -->
+      <a href="#" class="btn btn-lg btn-outline-primary btn-lg-square back-to-top"
+         ><i class="fa fa-angle-double-up"></i
+      ></a>
+
+      <!-- JavaScript Libraries -->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+      <script src="lib/easing/easing.min.js"></script>
+      <script src="lib/waypoints/waypoints.min.js"></script>
+      <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+      <script src="lib/isotope/isotope.pkgd.min.js"></script>
+      <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+      <!-- Template Javascript -->
+      <script src="js/main.js"></script>
+   </body>
+</html>
