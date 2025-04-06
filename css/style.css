@@ -10460,3 +10460,8 @@ a.text-dark:focus {
       transform: translateY(0);
    }
 }
+
+.fz-12 {
+   font-size: 1.2rem;
+
+}

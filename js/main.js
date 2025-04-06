@@ -11,7 +11,7 @@ playPauseBtn.addEventListener('click', () => {
    }
 })
 function updateCountdown() {
-   const weddingDate = new Date('2025-05-15T14:30:00').getTime() //
+   const weddingDate = new Date('2025-05-17T14:30:00').getTime() //
    const now = new Date().getTime()
    const difference = weddingDate - now
 
