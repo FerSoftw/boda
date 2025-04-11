@@ -10463,5 +10463,78 @@ a.text-dark:focus {
 
 .fz-12 {
    font-size: 1.2rem;
+}
 
+.seccion-grupos {
+   max-width: 1180px;
+   margin: auto;
+   padding: 3rem 1rem;
+   text-align: center;
+}
+
+.seccion-grupos h2 {
+   font-size: 2rem;
+   margin-bottom: 1rem;
+   color: #8a5c5c;
+}
+
+.grupos {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   gap: 2rem;
+   margin-top: 2rem;
+}
+
+.grupo {
+   background: white;
+   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+   overflow: hidden;
+   max-width: 350px;
+   transition: transform 0.3s ease;
+}
+
+.grupo:hover {
+   transform: translateY(-5px);
+}
+
+.grupo img {
+   width: 100%;
+   height: 250px;
+   object-fit: cover;
+}
+
+.grupo h3 {
+   margin: 1rem 0 0.5rem;
+   color: #5e4a4a;
+}
+
+.grupo p {
+   font-size: 0.95rem;
+   padding: 0 1rem 1rem;
+   color: #666;
+}
+
+@media (max-width: 768px) {
+   .grupos {
+      flex-direction: column;
+      align-items: center;
+   }
+}
+.grupo-sorpresa .imagen-sorpresa {
+   width: 100%;
+   height: 250px;
+   background: linear-gradient(135deg, #d7ccc8, #e0e0e0);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: #555;
+   font-size: 1.5rem;
+}
+
+.grupo-sorpresa .texto-sorpresa {
+   font-size: 1.1rem;
+   font-weight: bold;
+   margin-top: 0.5rem;
 }
